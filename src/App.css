@@ -1,0 +1,162 @@
+@font-face {
+    font-family: 'Poppins-Regular';
+    src: url('/public/Poppins-Regular.woff2');
+}
+
+* {
+    font-family: 'Poppins-Regular';
+    letter-spacing: 0.02em;
+}
+
+.container {
+    margin: 0 auto;
+    padding-left: 100px;
+}
+
+.picture {
+    position: relative;
+    height: 1024px;
+    width: 800px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.title {
+    position: absolute;
+    padding-top: 100px;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 60px;
+    color: #FFFFFF;
+}
+
+.description {
+    position: absolute;
+    padding-top: 433px;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 48px;
+    width: 598px;
+    height: 196px;
+    color: #FFFFFF;
+}
+
+.info {
+    bottom: 56px;
+    font-size: 20px;
+    color: #FFFFFF;
+}
+
+.text {
+    bottom: 40px;
+    font-size: 17px;
+    color: #FFFFFF;
+}
+
+.small {
+    position: absolute;
+    font-weight: 400;
+    line-height: 30px;
+    color: #FFFFFF;
+}
+
+.inputTitle {
+    position: absolute;
+    width: 314px;
+    height: 48px;
+    left: 900px;
+    top: 200px;
+    color:#000000;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 48px;
+}
+
+.paragraph {
+    position: absolute;
+    width: 353px;
+    height: 24px;
+    left: 900px;
+    top: 255px;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 24px;
+    color: #8D8D8D;
+}
+
+.form {
+    position: absolute;
+    left: 900px;
+    top: 350px;
+    display: flex;
+    flex-direction: column;
+    column-gap: 90px;
+}
+
+input {
+    border: none;
+    border-bottom: 1px solid #000000;
+    width: 340px;
+    padding-top: 25px;
+}
+
+.btns-wrapper {
+    display: flex;
+}
+ 
+.btn {
+    position: absolute;
+    width: 335px;
+    height: 50px;
+    border-radius: 20px;
+}
+
+.create-btn {
+    font-size: 16px;
+    top: 400px;
+    background: #000000;
+    color: white;
+}
+
+.sign-btn {
+    box-sizing: border-box;
+    top: 820px;
+    left: 900px;
+    border: 1px solid #8D8D8D;
+    text-align: center;
+    padding: 11px 0 0 15px;
+    color: #000000;
+}
+
+.icon {
+    position: absolute;
+    left: 20%;
+    top: 30%;
+    height: 20px;
+}
+
+.link {
+    position: absolute;
+    width: 303px;
+    height: 30px;
+    left: 930px;
+    top: 952px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+}
+
+a {
+    text-decoration: none;
+}
+
+.label {
+    font-weight: 700;
+    font-size: 17px;
+    padding-top: 20px;
+}
+
+.signUpLink {
+    color: #3EC1F3
+}
