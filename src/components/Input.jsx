@@ -6,19 +6,6 @@ function Input({title, paragraph}) {
     <>
         <h2 className="inputTitle">{title}</h2>
         <p className="paragraph">{paragraph}</p>
-        
-        {/* <form action="" className="form">
-
-            <label for="username">Name</label>
-            <input type="text" id="username" name="username" required></input> <br />
-
-            <label for="email">Email</label>
-            <input type="email" id="email" name="email" required></input> <br />
-
-            <label for="password">Password</label>
-            <input type="password" id="password" name="password" required></input> <br />
-
-        </form> */}
 
         <Formik className="form"
             initialValues={{ name: '', email: '', password: '' }}
